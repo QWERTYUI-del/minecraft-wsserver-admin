@@ -1,17 +1,33 @@
-# Ignore environment files
+# Environment variables
 .env
-.env.local
-.env.*.local
+.env.*
+!.env.example
 
-# Ignore Node.js dependencies (optional but recommended)
-
-# Ignore logs
-logs
+# Log files
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Ignore OS files (optional)
+# OS / IDE / Editor files
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
+
+# Docker artifacts
+docker-compose.override.yml
+*.local.yml
+
+# Optional: ignore Pterodactyl egg packaging
+
+# Optional: ignore local scripts or notes
+*.sh
+*.md
+notes/
+scripts/
