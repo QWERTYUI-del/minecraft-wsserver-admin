@@ -1,0 +1,24 @@
+/* public/style.css */
+body {
+  font-family: sans-serif;
+  background: #111;
+  color: #eee;
+  padding: 2em;
+}
+#container {
+  max-width: 600px;
+  margin: auto;
+  background: #222;
+  padding: 2em;
+  border-radius: 8px;
+}
+input, button {
+  padding: 0.5em;
+  margin-top: 1em;
+}
+#avatar {
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
